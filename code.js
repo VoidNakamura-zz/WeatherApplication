@@ -60,19 +60,6 @@ $(document).ready(function() {
 
                 $( '<p>' + weather + '</p>').appendTo(".type");
 
-
-
-                console.log(area);
-
-
-                console.log(weather);
-                console.log(wind);
-                console.log(WeatherType);
-
-                console.log(latitude);
-                console.log(longitude);
-
-                console.log(data);
             });
 
 }
