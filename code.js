@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 
                 if(weather === "Rain"){
-                    console.log("rain");
+                    $("body").css("background-image",'url("http://i.imgur.com/8aX07js.jpg")');
                 }
                 if(weather === "Clouds"){
                     $("body").css("background-image",'url("http://i.imgur.com/IaEHwyB.jpg")');
